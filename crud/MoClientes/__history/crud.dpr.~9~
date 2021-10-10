@@ -14,8 +14,8 @@ uses
 begin
   Application.Initialize;
   Application.CreateForm(TFACTURACION, FACTURACION);
-  Application.CreateForm(TClientes, Clientes);
   Application.CreateForm(TFpadre1, Fpadre1);
+  Application.CreateForm(TClientes, Clientes);
   Application.CreateForm(TAccesobd, Accesobd);
   Application.CreateForm(TLogicaDatos, LogicaDatos);
   Application.CreateForm(TFpadre, Fpadre);

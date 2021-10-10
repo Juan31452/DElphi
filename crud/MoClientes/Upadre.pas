@@ -72,6 +72,7 @@ begin
   Edcampo1.Enabled:= True;
   Edcampo2.Enabled:= True;
   Edcampo3.Enabled:= True;
+
   Edcampo1.Text :=   Column.Field.DataSet.Fields[0].Value;
   Edcampo2.text :=   Column.Field.DataSet.Fields[1].Value;
   Edcampo3.Text   :=   Column.Field.DataSet.Fields[2].Value;

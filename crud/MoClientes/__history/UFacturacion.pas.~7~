@@ -9,10 +9,8 @@ uses
 
 type
   TFACTURACION = class(TFpadre)
-    BitDetalle: TBitBtn;
     procedure BitGuardarClick(Sender: TObject);
     procedure BtModificarClick(Sender: TObject);
-    procedure DBGrid1CellClick(Column: TColumn);
   private
     { Private declarations }
   public
@@ -57,12 +55,6 @@ begin
 
     Post;
 end;
-end;
-
-procedure TFACTURACION.DBGrid1CellClick(Column: TColumn);
-begin
-  inherited;
-  BitDetalle.Enabled:= True;
 end;
 
 end.

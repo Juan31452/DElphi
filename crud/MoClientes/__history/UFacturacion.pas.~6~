@@ -9,10 +9,7 @@ uses
 
 type
   TFACTURACION = class(TFpadre)
-    BitDetalle: TBitBtn;
     procedure BitGuardarClick(Sender: TObject);
-    procedure BtModificarClick(Sender: TObject);
-    procedure DBGrid1CellClick(Column: TColumn);
   private
     { Private declarations }
   public
@@ -42,27 +39,6 @@ With LogicaDatos,Facturacion do
     Post;
 
   end;
-end;
-
-procedure TFACTURACION.BtModificarClick(Sender: TObject);
-begin
-  inherited;
-  With LogicaDatos.Facturacion do
-begin
- Edit;
-    FieldByname('Numero').AsString:=Edcampo1.Text;
-    FieldByname('Fecha').AsString:=Edcampo2.Text;
-    FieldByname('Cliente').AsString:=Edcampo3.Text;
-    FieldByname('Total').AsString:=Edcampo3.Text;
-
-    Post;
-end;
-end;
-
-procedure TFACTURACION.DBGrid1CellClick(Column: TColumn);
-begin
-  inherited;
-  BitDetalle.Enabled:= True;
 end;
 
 end.

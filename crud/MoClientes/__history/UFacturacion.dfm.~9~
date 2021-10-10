@@ -28,19 +28,6 @@ inherited FACTURACION: TFACTURACION
     inherited BtModificar: TBitBtn
       OnClick = BtModificarClick
     end
-    object BitDetalle: TBitBtn
-      Left = 352
-      Top = 2
-      Width = 80
-      Height = 25
-      Caption = '&Detalle'
-      Enabled = False
-      NumGlyphs = 2
-      ParentShowHint = False
-      ShowHint = True
-      TabOrder = 5
-      OnClick = BitGuardarClick
-    end
   end
   inherited DBGrid1: TDBGrid
     Top = 272

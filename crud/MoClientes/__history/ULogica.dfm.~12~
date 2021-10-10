@@ -3,7 +3,6 @@ object LogicaDatos: TLogicaDatos
   Height = 150
   Width = 316
   object Clientes: TADOQuery
-    Active = True
     Connection = Accesobd.ADOConnection
     CursorType = ctStatic
     Parameters = <>

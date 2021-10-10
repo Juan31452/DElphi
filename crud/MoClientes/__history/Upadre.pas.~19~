@@ -16,17 +16,20 @@ type
     BtEliminar: TBitBtn;
     BitGuardar: TBitBtn;
     StatusBar1: TStatusBar;
-    Label1: TLabel;
-    Label2: TLabel;
-    Label3: TLabel;
+    titulo1: TLabel;
+    titulo2: TLabel;
+    titulo3: TLabel;
     Edcampo1: TEdit;
     Edcampo2: TEdit;
     Edcampo3: TEdit;
-    DBGrid1: TDBGrid;
     DataS: TDataSource;
+    DBGrid1: TDBGrid;
+    Edcampo4: TEdit;
+    titulo4: TLabel;
     procedure DBGrid1CellClick(Column: TColumn);
     procedure BtNuevoClick(Sender: TObject);
     procedure BitGuardarClick(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -42,9 +45,11 @@ implementation
 
 procedure TFpadre.BitGuardarClick(Sender: TObject);
 begin
-  Edcampo1.Text:= '';
-  Edcampo2.Text:= '';
-  Edcampo3.Text:= '';
+
+  BtNuevo.Enabled:= True;
+  BtModificar.Enabled:= True;
+  BtEliminar.Enabled:= True;
+
 end;
 
 procedure TFpadre.BtNuevoClick(Sender: TObject);
@@ -52,6 +57,9 @@ begin
   Edcampo1.Enabled:= True;
   Edcampo2.Enabled:= True;
   Edcampo3.Enabled:= True;
+  Edcampo1.Text:= '';
+  Edcampo2.Text:= '';
+  Edcampo3.Text:= '';
   Edcampo1.SetFocus;
   BtNuevo.Enabled:= False;
   BtModificar.Enabled:= False;
@@ -61,9 +69,14 @@ end;
 
 procedure TFpadre.DBGrid1CellClick(Column: TColumn);
 begin
- Edcampo1.Text :=   Column.Field.DataSet.Fields[0].Value;
- Edcampo2.text :=   Column.Field.DataSet.Fields[1].Value;
- Edcampo3.Text   :=   Column.Field.DataSet.Fields[2].Value;
+  Edcampo1.Enabled:= True;
+  Edcampo2.Enabled:= True;
+  Edcampo3.Enabled:= True;
+  Edcampo1.Text :=   Column.Field.DataSet.Fields[0].Value;
+  Edcampo2.text :=   Column.Field.DataSet.Fields[1].Value;
+  Edcampo3.Text   :=   Column.Field.DataSet.Fields[2].Value;
 end;
+
+
 
 end.
