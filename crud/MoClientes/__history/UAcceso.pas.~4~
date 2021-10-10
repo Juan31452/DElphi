@@ -8,7 +8,6 @@ uses
 type
   TAccesobd = class(TDataModule)
     ADOConnection: TADOConnection;
-    SQLConnection1: TSQLConnection;
   private
     { Private declarations }
   public
