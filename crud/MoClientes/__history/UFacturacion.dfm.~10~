@@ -24,13 +24,6 @@ inherited FACTURACION: TFACTURACION
     ExplicitLeft = 20
     ExplicitWidth = 24
   end
-  object Label1: TLabel [4]
-    Left = 296
-    Top = 40
-    Width = 92
-    Height = 13
-    Caption = 'DETALLE FACTURA'
-  end
   inherited Panel6: TPanel
     inherited BtModificar: TBitBtn
       OnClick = BtModificarClick
@@ -52,25 +45,7 @@ inherited FACTURACION: TFACTURACION
   inherited DBGrid1: TDBGrid
     Top = 272
   end
-  object DBGrid2: TDBGrid [12]
-    Left = 296
-    Top = 56
-    Width = 393
-    Height = 177
-    DataSource = DataS1
-    TabOrder = 7
-    TitleFont.Charset = DEFAULT_CHARSET
-    TitleFont.Color = clWindowText
-    TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
-    TitleFont.Style = []
-  end
   inherited DataS: TDataSource
     DataSet = LogicaDatos.Facturacion
-  end
-  object DataS1: TDataSource
-    DataSet = LogicaDatos.DetalleF
-    Left = 440
-    Top = 128
   end
 end

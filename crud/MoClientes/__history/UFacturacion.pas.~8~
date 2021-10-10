@@ -10,9 +10,6 @@ uses
 type
   TFACTURACION = class(TFpadre)
     BitDetalle: TBitBtn;
-    DBGrid2: TDBGrid;
-    DataS1: TDataSource;
-    Label1: TLabel;
     procedure BitGuardarClick(Sender: TObject);
     procedure BtModificarClick(Sender: TObject);
     procedure DBGrid1CellClick(Column: TColumn);
