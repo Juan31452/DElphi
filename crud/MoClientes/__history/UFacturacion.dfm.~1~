@@ -1,0 +1,34 @@
+inherited FACTURACION: TFACTURACION
+  Caption = 'FACTURACION'
+  ExplicitWidth = 738
+  ExplicitHeight = 447
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label4: TLabel [3]
+    Left = 32
+    Top = 229
+    Width = 39
+    Height = 13
+    Caption = 'Campo4'
+  end
+  inherited Panel6: TPanel
+    inherited BitBtn8: TBitBtn
+      ExplicitLeft = 908
+    end
+  end
+  inherited StatusBar1: TStatusBar
+    ExplicitTop = 389
+    ExplicitWidth = 722
+  end
+  inherited DBGrid1: TDBGrid
+    Top = 272
+  end
+  object Edit1: TEdit [10]
+    Left = 77
+    Top = 226
+    Width = 161
+    Height = 21
+    Enabled = False
+    TabOrder = 6
+  end
+end

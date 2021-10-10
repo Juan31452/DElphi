@@ -21,9 +21,6 @@ inherited Fpadre1: TFpadre1
     Caption = 'Valor'
     ExplicitWidth = 24
   end
-  inherited titulo4: TLabel
-    Visible = False
-  end
   inherited Panel6: TPanel
     Width = 718
     ExplicitWidth = 718
@@ -42,9 +39,6 @@ inherited Fpadre1: TFpadre1
     Top = 388
     Width = 718
     ExplicitWidth = 718
-  end
-  inherited Edcampo4: TEdit
-    Visible = False
   end
   inherited DataS: TDataSource
     DataSet = LogicaDatos.Productos

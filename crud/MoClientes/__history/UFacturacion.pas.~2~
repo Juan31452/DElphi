@@ -1,0 +1,28 @@
+unit UFacturacion;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Upadre, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  Vcl.StdCtrls, Vcl.ComCtrls, Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TFACTURACION = class(TFpadre)
+    Edit1: TEdit;
+    Label4: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FACTURACION: TFACTURACION;
+
+implementation
+
+{$R *.dfm}
+uses ULogica;
+
+end.

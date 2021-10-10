@@ -32,7 +32,7 @@ procedure TFpadre1.BitGuardarClick(Sender: TObject);
 begin
   inherited;
 
-  With LogicaDatos.ADOQuery2 do
+  With LogicaDatos.Productos do
   begin
 
     Append;
@@ -50,21 +50,21 @@ begin
   inherited;
   if  Application.MessageBox('¿Desea eliminar el registro?', 'Eliminación...',
    Mb_IconQuestion + Mb_YesNo)=Id_No then Exit;
-  LogicaDatos.ADOQuery2.SQL.Clear;
-  LogicaDatos.ADOQuery2.SQL.Add('delete from productos where Producto=' + (Edcampo1.Text));
-  LogicaDatos.ADOQuery2.ExecSQL;
+  LogicaDatos.Productos.SQL.Clear;
+  LogicaDatos.Productos.SQL.Add('delete from productos where Producto=' + (Edcampo1.Text));
+  LogicaDatos.Productos.ExecSQL;
 
 
-  LogicaDatos.ADOQuery2.SQL.Clear;
-  LogicaDatos.ADOQuery2.SQL.Add('SELECT * FROM productos');
-  LogicaDatos.ADOQuery2.Open;
+  LogicaDatos.Productos.SQL.Clear;
+  LogicaDatos.Productos.SQL.Add('SELECT * FROM productos');
+  LogicaDatos.Productos.Open;
 
 end;
 
 procedure TFpadre1.BtModificarClick(Sender: TObject);
 begin
   inherited;
-   With LogicaDatos.ADOQuery2 do
+   With LogicaDatos.Productos do
   begin
     if (Edcampo1.Enabled = True) then
     begin

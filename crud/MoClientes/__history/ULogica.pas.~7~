@@ -1,0 +1,33 @@
+unit ULogica;
+
+interface
+
+uses
+  SysUtils, Classes, DB, Provider, DBClient, ADODB, Datasnap.Win.MConnect;
+
+type
+  TLogicaDatos = class(TDataModule)
+    ADOQuery1: TADOQuery;
+    ADOQuery1Codigo: TIntegerField;
+    ADOQuery1Nombre_Cliente: TWideStringField;
+    ADOQuery1direccion: TWideStringField;
+    ADOQuery2: TADOQuery;
+    ADOQuery2Producto: TIntegerField;
+    ADOQuery2Nombre_Producto: TWideStringField;
+    ADOQuery2Valor: TBCDField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  LogicaDatos: TLogicaDatos;
+
+implementation
+
+{$R *.dfm}
+uses UAcceso;
+
+
+end.

@@ -6,14 +6,12 @@ uses
   UAcceso in 'UAcceso.pas' {Accesobd: TDataModule},
   ULogica in 'ULogica.pas' {LogicaDatos: TDataModule},
   Upadre in 'Upadre.pas' {Fpadre},
-  UProductos in 'UProductos.pas' {Fpadre1},
-  UFacturacion in 'UFacturacion.pas' {FACTURACION};
+  UProductos in 'UProductos.pas' {Fpadre1};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TFACTURACION, FACTURACION);
   Application.CreateForm(TFpadre1, Fpadre1);
   Application.CreateForm(TClientes, Clientes);
   Application.CreateForm(TAccesobd, Accesobd);

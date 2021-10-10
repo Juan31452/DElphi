@@ -13,26 +13,33 @@ object Fpadre: TFpadre
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 32
+  object titulo1: TLabel
+    Left = 26
     Top = 56
     Width = 39
     Height = 13
     Caption = 'Campo1'
   end
-  object Label2: TLabel
-    Left = 32
-    Top = 120
+  object titulo2: TLabel
+    Left = 26
+    Top = 104
     Width = 39
     Height = 13
     Caption = 'Campo2'
   end
-  object Label3: TLabel
-    Left = 32
-    Top = 187
-    Width = 45
+  object titulo3: TLabel
+    Left = 26
+    Top = 155
+    Width = 39
     Height = 13
-    Caption = 'Cam'#241'po3'
+    Caption = 'Campo3'
+  end
+  object titulo4: TLabel
+    Left = 26
+    Top = 203
+    Width = 39
+    Height = 13
+    Caption = 'Campo4'
   end
   object Panel6: TPanel
     Left = 0
@@ -41,9 +48,6 @@ object Fpadre: TFpadre
     Height = 31
     Align = alTop
     TabOrder = 0
-    ExplicitLeft = -8
-    ExplicitTop = -16
-    ExplicitWidth = 574
     DesignSize = (
       722
       31)
@@ -125,7 +129,6 @@ object Fpadre: TFpadre
       ParentShowHint = False
       ShowHint = True
       TabOrder = 0
-      ExplicitLeft = 850
     end
     object BtNuevo: TBitBtn
       Left = 5
@@ -202,8 +205,6 @@ object Fpadre: TFpadre
       item
         Width = 300
       end>
-    ExplicitTop = 388
-    ExplicitWidth = 664
   end
   object Edcampo1: TEdit
     Left = 81
@@ -215,7 +216,7 @@ object Fpadre: TFpadre
   end
   object Edcampo2: TEdit
     Left = 81
-    Top = 117
+    Top = 101
     Width = 161
     Height = 21
     Enabled = False
@@ -223,7 +224,7 @@ object Fpadre: TFpadre
   end
   object Edcampo3: TEdit
     Left = 81
-    Top = 184
+    Top = 152
     Width = 161
     Height = 21
     Enabled = False
@@ -245,8 +246,16 @@ object Fpadre: TFpadre
     TitleFont.Style = []
     OnCellClick = DBGrid1CellClick
   end
+  object Edcampo4: TEdit
+    Left = 81
+    Top = 200
+    Width = 161
+    Height = 21
+    Enabled = False
+    TabOrder = 6
+  end
   object DataS: TDataSource
-    DataSet = LogicaDatos.ADOQuery1
+    DataSet = LogicaDatos.Clientes
     Left = 384
     Top = 272
   end

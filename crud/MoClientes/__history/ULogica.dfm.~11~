@@ -23,7 +23,6 @@ object LogicaDatos: TLogicaDatos
     end
   end
   object Productos: TADOQuery
-    Active = True
     Connection = Accesobd.ADOConnection
     CursorType = ctStatic
     Parameters = <>

@@ -7,14 +7,25 @@ uses
 
 type
   TLogicaDatos = class(TDataModule)
-    ADOQuery1: TADOQuery;
-    ADOQuery1Codigo: TIntegerField;
-    ADOQuery1Nombre_Cliente: TWideStringField;
-    ADOQuery1direccion: TWideStringField;
-    ADOQuery2: TADOQuery;
-    ADOQuery2Producto: TIntegerField;
-    ADOQuery2Nombre_Producto: TWideStringField;
-    ADOQuery2Valor: TBCDField;
+    Clientes: TADOQuery;
+    ClientesCodigo: TIntegerField;
+    ClientesNombre_Cliente: TWideStringField;
+    Clientesdireccion: TWideStringField;
+    Productos: TADOQuery;
+    ProductosProducto: TIntegerField;
+    ProductosNombre_Producto: TWideStringField;
+    ProductosValor: TBCDField;
+    Facturacion: TADOQuery;
+    DetalleF: TADOQuery;
+    FacturacionNumero: TIntegerField;
+    FacturacionFecha: TDateTimeField;
+    FacturacionCliente: TIntegerField;
+    FacturacionTotal: TBCDField;
+    DetalleFNumero: TIntegerField;
+    DetalleFFactura: TIntegerField;
+    DetalleFProducto: TIntegerField;
+    DetalleFCantidad: TIntegerField;
+    DetalleFValor: TBCDField;
   private
     { Private declarations }
   public

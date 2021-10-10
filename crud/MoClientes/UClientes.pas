@@ -44,7 +44,7 @@ uses ULogica,UAcceso;
 
 procedure TClientes.BtModificarClick(Sender: TObject);
 begin
-With LogicaDatos.ADOQuery1 do
+With LogicaDatos.Clientes do
 begin
  Edit;
     FieldByname('Codigo').AsString:=Edcliente.Text;
@@ -56,7 +56,7 @@ end;
 
 procedure TClientes.BtNuevoClick(Sender: TObject);
 begin
-With LogicaDatos.ADOQuery1 do
+With LogicaDatos.Clientes do
   begin
 
     Append;

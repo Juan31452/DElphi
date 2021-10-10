@@ -3,14 +3,20 @@
 	<Transactions>
     <Transaction>2021/10/09 20:48:24.000.240,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
     <Transaction>2021/10/09 20:48:35.000.248,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
-    <Transaction>2021/10/09 20:51:46.000.431,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Upadre.pas</Transaction>
-    <Transaction>2021/10/09 20:51:46.000.431,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Upadre.dfm</Transaction>
+    <Transaction>2021/10/09 20:51:46.000.431,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Upadre.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm</Transaction>
+    <Transaction>2021/10/09 20:51:46.000.431,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Upadre.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
     <Transaction>2021/10/09 21:01:12.000.709,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
-    <Transaction>2021/10/09 21:02:18.000.449,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.pas</Transaction>
-    <Transaction>2021/10/09 21:02:18.000.449,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.dfm</Transaction>
-    <Transaction>2021/10/09 21:32:57.931,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.pas=</Transaction>
-    <Transaction>2021/10/09 21:33:19.244,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
-    <Transaction>2021/10/09 21:34:05.518,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
-    <Transaction>2021/10/09 21:34:05.518,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm</Transaction>
+    <Transaction>2021/10/09 21:02:18.000.449,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
+    <Transaction>2021/10/09 21:02:18.000.449,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm</Transaction>
+    <Transaction>2021/10/09 21:32:57.000.931,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.pas=</Transaction>
+    <Transaction>2021/10/09 21:33:19.000.244,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
+    <Transaction>2021/10/09 21:34:05.000.518,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.pas</Transaction>
+    <Transaction>2021/10/09 21:34:05.000.518,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.dfm</Transaction>
+    <Transaction>2021/10/10 11:00:47.609,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
+    <Transaction>2021/10/10 11:02:12.862,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFactura.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
+    <Transaction>2021/10/10 11:02:12.862,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFactura.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm</Transaction>
+    <Transaction>2021/10/10 11:06:19.773,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.pas</Transaction>
+    <Transaction>2021/10/10 11:11:28.763,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFacturacion.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.dfm</Transaction>
+    <Transaction>2021/10/10 11:11:28.763,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFacturacion.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.pas</Transaction>
   </Transactions>
 </BorlandProject>

@@ -1,5 +1,0 @@
-inherited Fpadre1: TFpadre1
-  Caption = 'PRODUCTOS'
-  PixelsPerInch = 96
-  TextHeight = 13
-end
