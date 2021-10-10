@@ -15,6 +15,7 @@ type
     ADOQuery2Producto: TIntegerField;
     ADOQuery2Nombre_Producto: TWideStringField;
     ADOQuery2Valor: TBCDField;
+    DCOMConnection1: TDCOMConnection;
   private
     { Private declarations }
   public

@@ -23,6 +23,7 @@ object LogicaDatos: TLogicaDatos
     end
   end
   object ADOQuery2: TADOQuery
+    Active = True
     Connection = Accesobd.ADOConnection
     CursorType = ctStatic
     Parameters = <>
@@ -45,5 +46,9 @@ object LogicaDatos: TLogicaDatos
       FieldName = 'Valor'
       Precision = 19
     end
+  end
+  object DCOMConnection1: TDCOMConnection
+    Left = 176
+    Top = 72
   end
 end
