@@ -1,0 +1,55 @@
+unit UClientes;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Grids, DBGrids, DB, ExtCtrls, DBCtrls, StdCtrls, Buttons,
+  DBTables, Mask;
+
+type
+  TClientes = class(TForm)
+    DataS: TDataSource;
+    Panel6: TPanel;
+    BitBtn8: TBitBtn;
+    BtNuevo: TBitBtn;
+    BtGrabar: TBitBtn;
+    BtBorrar: TBitBtn;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    DBGrid1: TDBGrid;
+    Edcliente: TEdit;
+    Ednombre: TEdit;
+    Edirecion: TEdit;
+    procedure BtNuevoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Clientes: TClientes;
+
+implementation
+
+{$R *.dfm}
+
+uses ULogica,UAcceso;
+
+
+procedure TClientes.BtNuevoClick(Sender: TObject);
+begin
+With LogicaDatos.ADOQuery1 do
+  begin
+    Append;
+    FieldByname('Codigo').AsString:=Edcliente.Text;
+    FieldByname('Nombre_Cliente').AsString:=Ednombre.Text;
+    FieldByname('Direccion').AsString:=Edirecion.Text;
+    Post;
+
+  end;
+end;
+
+end.

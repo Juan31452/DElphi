@@ -1,0 +1,60 @@
+inherited Fpadre1: TFpadre1
+  BorderStyle = bsNone
+  Caption = 'PRODUCTOS'
+  ClientHeight = 446
+  ClientWidth = 667
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Label1: TLabel
+    Width = 43
+    Caption = 'Producto'
+    ExplicitWidth = 43
+  end
+  inherited Label2: TLabel
+    Width = 37
+    Caption = 'Nombre'
+    ExplicitWidth = 37
+  end
+  inherited Label3: TLabel
+    Width = 24
+    Caption = 'Valor'
+    ExplicitWidth = 24
+  end
+  inherited Panel6: TPanel
+    Width = 667
+    ExplicitLeft = 0
+    ExplicitWidth = 664
+    inherited BitBtn8: TBitBtn
+      Left = 853
+    end
+    inherited BtNuevo: TBitBtn
+      OnClick = BtNuevoClick
+    end
+    inherited BtModificar: TBitBtn
+      OnClick = BtModificarClick
+    end
+  end
+  inherited StatusBar1: TStatusBar
+    Top = 427
+    Width = 667
+  end
+  object DBGrid1: TDBGrid [8]
+    Left = 16
+    Top = 248
+    Width = 601
+    Height = 97
+    DataSource = DataS
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
+    ReadOnly = True
+    TabOrder = 5
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    OnCellClick = DBGrid1CellClick
+  end
+  inherited DataS: TDataSource
+    DataSet = LogicaDatos.ADOQuery2
+  end
+end

@@ -1,0 +1,19 @@
+program crud;
+
+uses
+  Forms,
+  UClientes in 'UClientes.pas' {Clientes},
+  UAcceso in 'UAcceso.pas' {Accesobd: TDataModule},
+  ULogica in 'ULogica.pas' {LogicaDatos: TDataModule},
+  Upadre in 'Upadre.pas' {Fpadre};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TClientes, Clientes);
+  Application.CreateForm(TAccesobd, Accesobd);
+  Application.CreateForm(TLogicaDatos, LogicaDatos);
+  Application.CreateForm(TFpadre, Fpadre);
+  Application.Run;
+end.

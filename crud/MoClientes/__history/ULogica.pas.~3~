@@ -1,0 +1,29 @@
+unit ULogica;
+
+interface
+
+uses
+  SysUtils, Classes, DB, Provider, DBClient, ADODB;
+
+type
+  TLogicaDatos = class(TDataModule)
+    ADOQuery1: TADOQuery;
+    ADOQuery1cliente: TAutoIncField;
+    ADOQuery1nombre: TWideStringField;
+    ADOQuery1direccion: TWideStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  LogicaDatos: TLogicaDatos;
+
+implementation
+
+{$R *.dfm}
+uses UAcceso;
+
+
+end.

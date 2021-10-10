@@ -1,0 +1,34 @@
+object Accesobd: TAccesobd
+  OldCreateOrder = False
+  Left = 1027
+  Top = 146
+  Height = 150
+  Width = 263
+  object ADOConnection: TADOConnection
+    ConnectionString = 
+      'Provider=MSDASQL.1;Persist Security Info=False;User ID=root;Data' +
+      ' Source=mysql;'
+    LoginPrompt = False
+    Provider = 'MSDASQL.1'
+    Left = 48
+    Top = 8
+  end
+  object SQLConnection1: TSQLConnection
+    ConnectionName = 'MySQLConnection'
+    DriverName = 'MySQL'
+    GetDriverFunc = 'getSQLDriverMYSQL'
+    LibraryName = 'dbexpmysql.dll'
+    Params.Strings = (
+      'DriverName=MySQL'
+      'HostName=localhost'
+      'Database=prueba'
+      'User_Name=root'
+      'Password='
+      'BlobSize=-1'
+      'ErrorResourceFile='
+      'LocaleCode=0000')
+    VendorLib = 'libmysql.dll'
+    Left = 128
+    Top = 16
+  end
+end

@@ -1,0 +1,47 @@
+object LogicaDatos: TLogicaDatos
+  OldCreateOrder = False
+  Height = 150
+  Width = 316
+  object ADOQuery1: TADOQuery
+    Connection = Accesobd.ADOConnection
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from clientes')
+    Left = 32
+    Top = 16
+    object ADOQuery1Codigo: TIntegerField
+      FieldName = 'Codigo'
+    end
+    object ADOQuery1Nombre_Cliente: TWideStringField
+      FieldName = 'Nombre_Cliente'
+      Size = 255
+    end
+    object ADOQuery1direccion: TWideStringField
+      FieldName = 'direccion'
+      Size = 255
+    end
+  end
+  object ADOQuery2: TADOQuery
+    Active = True
+    Connection = Accesobd.ADOConnection
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from productos'
+      '')
+    Left = 104
+    Top = 16
+    object ADOQuery2Producto: TIntegerField
+      FieldName = 'Producto'
+    end
+    object ADOQuery2Nombre_Producto: TWideStringField
+      FieldName = 'Nombre_Producto'
+      Size = 255
+    end
+    object ADOQuery2Valor: TBCDField
+      FieldName = 'Valor'
+      Precision = 19
+    end
+  end
+end

@@ -1,0 +1,28 @@
+inherited Fpadre1: TFpadre1
+  Caption = 'PRODUCTOS'
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Label1: TLabel
+    Width = 43
+    Caption = 'Producto'
+    ExplicitWidth = 43
+  end
+  inherited Label2: TLabel
+    Width = 37
+    Caption = 'Nombre'
+    ExplicitWidth = 37
+  end
+  inherited Label3: TLabel
+    Width = 24
+    Caption = 'Valor'
+    ExplicitWidth = 24
+  end
+  inherited Panel6: TPanel
+    inherited BtNuevo: TBitBtn
+      OnClick = BtNuevoClick
+    end
+  end
+  inherited DataS: TDataSource
+    DataSet = LogicaDatos.ADOQuery2
+  end
+end
