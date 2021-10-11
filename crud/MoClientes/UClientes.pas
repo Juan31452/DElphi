@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, Grids, DBGrids, DB, ExtCtrls, DBCtrls, StdCtrls, Buttons,
-  DBTables, Mask;
+  DBTables, Mask, Datasnap.DBClient, Datasnap.Win.MConnect;
 
 type
   TClientes = class(TForm)
@@ -23,6 +23,8 @@ type
     Edirecion: TEdit;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
+    Conexion: TDCOMConnection;
+    TClientes: TClientDataSet;
     procedure BtNuevoClick(Sender: TObject);
     procedure BtModificarClick(Sender: TObject);
     procedure DBGrid1CellClick(Column: TColumn);
@@ -39,7 +41,7 @@ implementation
 
 {$R *.dfm}
 
-uses ULogica,UAcceso,UServidorDCOM;
+uses ULogica,UServidorDCOM;
 
 
 procedure TClientes.BtModificarClick(Sender: TObject);

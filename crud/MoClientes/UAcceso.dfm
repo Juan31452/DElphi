@@ -16,6 +16,7 @@ object Accesobd: TAccesobd
     DriverName = 'MySQL'
     GetDriverFunc = 'getSQLDriverMYSQL'
     LibraryName = 'dbxmys.dll'
+    LoginPrompt = False
     Params.Strings = (
       'DriverName=MySQL'
       'HostName=ServerName'

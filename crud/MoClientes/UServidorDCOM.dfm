@@ -1,14 +1,16 @@
 object ServidorDCOM: TServidorDCOM
   OldCreateOrder = False
-  Height = 150
-  Width = 215
+  Height = 235
+  VerticalOffset = 85
+  Width = 346
   object BaseDatos: TIBDatabase
     Connected = True
-    DatabaseName = 'C:\PRUEBA1.GDB'
+    DatabaseName = '127.0.0.1:C:\PRUEBA1.GDB'
     Params.Strings = (
       'user_name=SYSDBA'
       'password=masterkey')
     LoginPrompt = False
+    DefaultTransaction = IBTransaction1
     ServerType = 'IBServer'
     Left = 64
     Top = 24
@@ -47,5 +49,10 @@ object ServidorDCOM: TServidorDCOM
       Origin = '"CLIENTES"."DIRECCION"'
       Size = 40
     end
+  end
+  object DSPClientes: TDataSetProvider
+    DataSet = IBClientes
+    Left = 152
+    Top = 120
   end
 end

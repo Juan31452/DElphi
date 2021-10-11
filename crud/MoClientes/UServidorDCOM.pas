@@ -7,7 +7,7 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, ComServ, ComObj, VCLCom, DataBkr,
   DBClient, UServidorDCOM_TLB, StdVcl, IBDatabase, Data.DB, IBCustomDataSet,
-  IBQuery;
+  IBQuery, Datasnap.Provider;
 
 type
   TServidorDCOM = class(TRemoteDataModule, IServidorDCOM)
@@ -17,6 +17,7 @@ type
     IBClientesCODIGO: TIBStringField;
     IBClientesNOMBRE_CLIENTE: TIBStringField;
     IBClientesDIRECCION: TIBStringField;
+    DSPClientes: TDataSetProvider;
   private
     { Private declarations }
   protected

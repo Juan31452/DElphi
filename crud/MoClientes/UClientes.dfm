@@ -227,8 +227,21 @@ object Clientes: TClientes
     TabOrder = 4
   end
   object DataS: TDataSource
-    DataSet = ServidorDCOM.IBClientes
     Left = 384
     Top = 272
+  end
+  object Conexion: TDCOMConnection
+    ServerName = 'ServidorDatos.ServidorDCOM'
+    Left = 312
+    Top = 80
+  end
+  object TClientes: TClientDataSet
+    Aggregates = <>
+    MasterSource = DataS
+    PacketRecords = 0
+    Params = <>
+    RemoteServer = Conexion
+    Left = 384
+    Top = 80
   end
 end
