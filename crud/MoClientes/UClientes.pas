@@ -39,7 +39,7 @@ implementation
 
 {$R *.dfm}
 
-uses ULogica,UAcceso;
+uses ULogica,UAcceso,UServidorDCOM;
 
 
 procedure TClientes.BtModificarClick(Sender: TObject);

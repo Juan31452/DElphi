@@ -227,7 +227,7 @@ object Clientes: TClientes
     TabOrder = 4
   end
   object DataS: TDataSource
-    DataSet = LogicaDatos.Clientes
+    DataSet = ServidorDCOM.IBClientes
     Left = 384
     Top = 272
   end

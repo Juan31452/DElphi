@@ -1,0 +1,19 @@
+object ServidorDCOM: TServidorDCOM
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object BaseDatos: TIBDatabase
+    DatabaseName = '127.0.0.1:D:\prueba2.mdb'
+    Params.Strings = (
+      'user_name=admin')
+    LoginPrompt = False
+    ServerType = 'IBServer'
+    Left = 64
+    Top = 24
+  end
+  object IBTransaction1: TIBTransaction
+    DefaultDatabase = BaseDatos
+    Left = 128
+    Top = 64
+  end
+end

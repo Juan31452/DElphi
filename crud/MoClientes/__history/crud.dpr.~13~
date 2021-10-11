@@ -24,5 +24,6 @@ begin
   Application.CreateForm(TLogicaDatos, LogicaDatos);
   Application.CreateForm(TFpadre, Fpadre);
   Application.CreateForm(TFpadre1, Fpadre1);
+  Application.CreateForm(TServidorDCOM, ServidorDCOM);
   Application.Run;
 end.

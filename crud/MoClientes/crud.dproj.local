@@ -12,11 +12,23 @@
     <Transaction>2021/10/09 21:33:19.000.244,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
     <Transaction>2021/10/09 21:34:05.000.518,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.pas</Transaction>
     <Transaction>2021/10/09 21:34:05.000.518,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UProductos.dfm</Transaction>
-    <Transaction>2021/10/10 11:00:47.609,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
-    <Transaction>2021/10/10 11:02:12.862,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFactura.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
-    <Transaction>2021/10/10 11:02:12.862,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFactura.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm</Transaction>
-    <Transaction>2021/10/10 11:06:19.773,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.pas</Transaction>
-    <Transaction>2021/10/10 11:11:28.763,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFacturacion.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.dfm</Transaction>
-    <Transaction>2021/10/10 11:11:28.763,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFacturacion.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.pas</Transaction>
+    <Transaction>2021/10/10 11:00:47.000.609,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
+    <Transaction>2021/10/10 11:02:12.000.862,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFactura.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm</Transaction>
+    <Transaction>2021/10/10 11:02:12.000.862,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFactura.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
+    <Transaction>2021/10/10 11:06:19.000.773,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.pas</Transaction>
+    <Transaction>2021/10/10 11:11:28.000.763,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFacturacion.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.dfm</Transaction>
+    <Transaction>2021/10/10 11:11:28.000.763,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UFacturacion.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit2.pas</Transaction>
+    <Transaction>2021/10/10 15:02:09.000.100,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\crud_TLB.pas</Transaction>
+    <Transaction>2021/10/10 15:02:09.000.084,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\crud.ridl</Transaction>
+    <Transaction>2021/10/10 15:02:14.000.989,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
+    <Transaction>2021/10/10 15:04:52.000.002,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\crud_TLB.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Remoto_TLB.pas</Transaction>
+    <Transaction>2021/10/10 15:06:22.000.367,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Remoto_TLB.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\crud_TLB.pas</Transaction>
+    <Transaction>2021/10/10 15:11:16.000.153,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\crud_TLB.pas</Transaction>
+    <Transaction>2021/10/10 15:11:16.000.129,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\crud.ridl</Transaction>
+    <Transaction>2021/10/10 15:11:16.000.300,=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas</Transaction>
+    <Transaction>2021/10/10 15:12:24.000.966,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\crud_TLB.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UServidorDCOM_TLB.pas</Transaction>
+    <Transaction>2021/10/10 15:12:24.000.817,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\crud.ridl=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UServidorDCOM.ridl</Transaction>
+    <Transaction>2021/10/10 15:13:30.000.586,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.dfm=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UServidorDCOM.dfm</Transaction>
+    <Transaction>2021/10/10 15:13:30.000.586,C:\Users\Juliana\Desktop\delphi\crud\MoClientes\Unit1.pas=C:\Users\Juliana\Desktop\delphi\crud\MoClientes\UServidorDCOM.pas</Transaction>
   </Transactions>
 </BorlandProject>
